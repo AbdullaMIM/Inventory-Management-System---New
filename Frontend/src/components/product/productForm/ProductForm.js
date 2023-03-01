@@ -33,7 +33,7 @@ setDescription, handleInputChange, handleImageChange, saveProduct }) => {
                  <input type="text" placeholder='Product Name' name="name" 
                         value={product?.name} onChange={handleInputChange} />
                  
-                 <label>Product Categort:</label>
+                 <label>Product Category:</label>
                  <input type="text" placeholder='Product Category' name="category" 
                         value={product?.category} onChange={handleInputChange} />
 
