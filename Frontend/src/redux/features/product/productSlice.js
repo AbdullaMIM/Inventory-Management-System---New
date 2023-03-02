@@ -281,5 +281,7 @@ export const selectOutOfStock = (state) => state.product.outOfStock;
 
 export const selectCategory = (state) => state.product.category;
 
+export const selectProduct = (state) => state.product.product;
+
 
 export default productSlice.reducer
