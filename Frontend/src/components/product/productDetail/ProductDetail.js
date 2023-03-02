@@ -38,7 +38,7 @@ const ProductDetail = () => {
         console.log(message)
       }
   
-    },[isLoggedIn, isError, message, dispatch])
+    },[isLoggedIn, isError, message, dispatch, id])
   
 
   return (
