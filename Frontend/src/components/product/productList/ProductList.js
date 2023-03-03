@@ -90,6 +90,8 @@ const ProductList = ({products, isLoading}) => {
         dispatch(FILTER_PRODUCTS({ products, search }))
     }, [products, search, dispatch]);
 
+    
+
   return (
     <div className='product-list'>
         <hr />
